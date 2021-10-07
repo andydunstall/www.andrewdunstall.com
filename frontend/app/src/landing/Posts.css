@@ -1,0 +1,48 @@
+.landing .posts {
+  margin: 0 auto;
+  margin-bottom: 100px;
+  width: 90%;
+  max-width: 700px;
+  text-align: left;
+}
+
+.landing .posts .post {
+  padding: 50px 0;
+  border-bottom: 1px solid #E5E5E5;
+}
+
+.landing .posts .post h3 {
+  font-family: 'Poppins', 'Helvetica', sans-serif;
+  font-size: 20px;
+  color: #0B1C27;
+}
+
+.landing .posts .post h6 {
+  color: #6B757C;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+@media (min-width: 500px) {
+  .landing .posts .post h3 {
+    font-size: 30px;
+  }
+
+  .landing .posts .post h6 {
+    font-size: 16px;
+  }
+}
+
+.landing .posts .post a {
+  background: #097CC6;
+  font-family: 'Poppins', 'Helvetica', sans-serif;
+  font-weight: 500;
+  border-radius: 8px;
+  padding: 10px;
+  color: #E5E5E5;
+  text-decoration: none;
+}
+
+.landing .posts .post a:hover {
+  background: #0463A0;
+}
