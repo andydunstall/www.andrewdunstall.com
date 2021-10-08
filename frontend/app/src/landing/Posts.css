@@ -1,4 +1,4 @@
-.landing .posts {
+.posts {
   margin: 0 auto;
   margin-bottom: 100px;
   width: 90%;
@@ -6,34 +6,49 @@
   text-align: left;
 }
 
-.landing .posts .post {
-  padding: 50px 0;
+.posts .post {
+  padding: 0 0 50px 0;
   border-bottom: 1px solid #E5E5E5;
 }
 
-.landing .posts .post h3 {
+.posts .post h1 {
   font-family: 'Poppins', 'Helvetica', sans-serif;
   font-size: 20px;
   color: #0B1C27;
 }
 
-.landing .posts .post h6 {
+.posts .post h2 {
+  font-family: 'Poppins', 'Helvetica', sans-serif;
+  font-size: 18px;
+  color: #0B1C27;
+}
+
+.posts .post h6 {
   color: #6B757C;
   font-weight: 500;
   font-size: 14px;
 }
 
+.posts .post pre {
+  overflow-x: scroll;
+  overflow-y: hidden;
+}
+
 @media (min-width: 500px) {
-  .landing .posts .post h3 {
+  .posts .post h1 {
     font-size: 30px;
   }
 
-  .landing .posts .post h6 {
+  .posts .post h2 {
+    font-size: 22px;
+  }
+
+  .posts .post h6 {
     font-size: 16px;
   }
 }
 
-.landing .posts .post a {
+.posts .post a#more {
   background: #097CC6;
   font-family: 'Poppins', 'Helvetica', sans-serif;
   font-weight: 500;
@@ -43,6 +58,6 @@
   text-decoration: none;
 }
 
-.landing .posts .post a:hover {
+.posts .post a#more:hover {
   background: #0463A0;
 }
