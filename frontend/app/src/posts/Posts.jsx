@@ -6,6 +6,7 @@ import {
   Route,
   useRouteMatch,
 } from 'react-router-dom';
+import CDCommitStage from './CDCommitStage';
 import TDGammon from './TDGammon';
 
 import './Posts.css';
@@ -20,6 +21,11 @@ function Posts() {
           <Route path={`${match.url}/implementing-td-gammon-with-keras`}>
             <div className="post">
               <TDGammon />
+            </div>
+          </Route>
+          <Route path={`${match.url}/continuous-deployment-pipeline-for-aws-lambda-commit-stage`}>
+            <div className="post">
+              <CDCommitStage />
             </div>
           </Route>
         </Switch>

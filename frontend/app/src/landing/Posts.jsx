@@ -1,3 +1,5 @@
+/* eslint max-len: "off" */
+
 import React from 'react';
 
 import { Link } from 'react-router-dom';
@@ -20,6 +22,18 @@ function Posts() {
         </p>
         <Link to="/posts/implementing-td-gammon-with-keras" id="more">Read More</Link>
       </div>
+
+      <div className="post">
+        <h1>Continuous Deployment Pipeline for AWS Lambda — Commit Stage</h1>
+        <h6>October 11, 2020</h6>
+        <p>
+          Continuous deployment is a software development practice where the release process is automated from end to end. This includes building, testing and deploying the software in a number of stages.
+
+          This article explains the first stage of the CI/CD pipeline  which builds the release candidate and detects common errors though unit testing and static analysis.
+        </p>
+        <Link to="posts/continuous-deployment-pipeline-for-aws-lambda-commit-stage" id="more">Read More</Link>
+      </div>
+
     </div>
   );
 }
