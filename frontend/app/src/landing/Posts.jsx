@@ -10,6 +10,15 @@ function Posts() {
   return (
     <div className="posts">
       <div className="post">
+        <h1>UDP Implementation Using Raw Sockets in Golang</h1>
+        <h6>October 9, 2021</h6>
+        <p>
+          This article implements a write-only UDP ‘socket’ in Golang using raw sockets, which provide the application direct access to the IP layer. Note the kernel does not forward received UDP datagrams to raw sockets so to receive UDP in the application would require accessing the link layer directly.
+        </p>
+        <Link to="/posts/udp-implementation-using-raw-sockets-in-golang" id="more">Read More</Link>
+      </div>
+
+      <div className="post">
         <h1>Implementing TD-Gammon with Keras</h1>
         <h6>January 24, 2021</h6>
         <p>
