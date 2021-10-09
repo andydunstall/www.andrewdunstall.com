@@ -7,6 +7,7 @@ import {
   useRouteMatch,
 } from 'react-router-dom';
 import CDCommitStage from './CDCommitStage';
+import GraphQLAPI from './GraphQLAPI';
 import TDGammon from './TDGammon';
 
 import './Posts.css';
@@ -23,6 +24,12 @@ function Posts() {
               <TDGammon />
             </div>
           </Route>
+          <Route path={`${match.url}/graphql-api-in-golang-with-aws-lambda`}>
+            <div className="post">
+              <GraphQLAPI />
+            </div>
+          </Route>
+
           <Route path={`${match.url}/continuous-deployment-pipeline-for-aws-lambda-commit-stage`}>
             <div className="post">
               <CDCommitStage />

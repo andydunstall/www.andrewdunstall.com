@@ -24,6 +24,18 @@ function Posts() {
       </div>
 
       <div className="post">
+        <h1>GraphQL API in Golang with AWS Lambda</h1>
+        <h6>October 23, 2020</h6>
+        <p>
+          This article describes building a new Golang back-end API to fetch articies using GraphQL.
+        </p>
+        <p>
+          GraphQL is a query language for APIs. This enables declarative data fetching. The client specifies exactly what data it needs and requests this from a single endpoint, rather than multiple endpoints returning fixed structure as done with REST.
+        </p>
+        <Link to="posts/graphql-api-in-golang-with-aws-lambda" id="more">Read More</Link>
+      </div>
+
+      <div className="post">
         <h1>Continuous Deployment Pipeline for AWS Lambda — Commit Stage</h1>
         <h6>October 11, 2020</h6>
         <p>
@@ -33,7 +45,6 @@ function Posts() {
         </p>
         <Link to="posts/continuous-deployment-pipeline-for-aws-lambda-commit-stage" id="more">Read More</Link>
       </div>
-
     </div>
   );
 }
