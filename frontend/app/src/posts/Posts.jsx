@@ -9,6 +9,7 @@ import {
 import CDCommitStage from './CDCommitStage';
 import GraphQLAPI from './GraphQLAPI';
 import TDGammon from './TDGammon';
+import UDPImpl from './UDPImpl';
 
 import './Posts.css';
 
@@ -19,11 +20,18 @@ function Posts() {
     <div className="posts">
       <Router>
         <Switch>
+          <Route path={`${match.url}/udp-implementation-using-raw-sockets-in-golang`}>
+            <div className="post">
+              <UDPImpl />
+            </div>
+          </Route>
+
           <Route path={`${match.url}/implementing-td-gammon-with-keras`}>
             <div className="post">
               <TDGammon />
             </div>
           </Route>
+
           <Route path={`${match.url}/graphql-api-in-golang-with-aws-lambda`}>
             <div className="post">
               <GraphQLAPI />
