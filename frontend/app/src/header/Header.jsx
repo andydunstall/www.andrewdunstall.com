@@ -15,7 +15,7 @@ function Header() {
       <h1><Link to="/">Andrew Dunstall</Link></h1>
       <h2>Software Engineer | London</h2>
       <div className="contact">
-        <a href="https://github.com/dunstall" aria-label="GitHub" target="_blank" rel="noopener noreferrer"><GitHub /></a>
+        <a href="https://github.com/andydunstall" aria-label="GitHub" target="_blank" rel="noopener noreferrer"><GitHub /></a>
         <a href="mailto:andydunstall@hotmail.co.uk" aria-label="Email"><Email /></a>
         <a href="https://uk.linkedin.com/in/andy-dunstall-531b6122a" aria-label="Linkedin"><Linkedin /></a>
       </div>
