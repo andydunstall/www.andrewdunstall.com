@@ -8,6 +8,7 @@ import {
 } from 'react-router-dom';
 import CDCommitStage from './CDCommitStage';
 import GraphQLAPI from './GraphQLAPI';
+import Scuttlebutt from './Scuttlebutt';
 import TDGammon from './TDGammon';
 import UDPImpl from './UDPImpl';
 
@@ -20,6 +21,12 @@ function Posts() {
     <div className="posts">
       <Router>
         <Switch>
+          <Route path={`${match.url}/scuttlebutt`}>
+            <div className="post">
+              <Scuttlebutt />
+            </div>
+          </Route>
+
           <Route path={`${match.url}/udp-implementation-using-raw-sockets-in-golang`}>
             <div className="post">
               <UDPImpl />

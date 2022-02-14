@@ -10,6 +10,18 @@ function Posts() {
   return (
     <div className="posts">
       <div className="post">
+        <h1>Scuttlebutt</h1>
+        <h6>Febuary 14, 2022</h6>
+        <p>
+          This is a high level overview of the Scuttlebutt gossip protocol as described in
+          {' '}
+          <a href="https://www.cs.cornell.edu/home/rvr/papers/flowgossip.pdf">van Renesse et al</a>
+          .
+        </p>
+        <Link to="/posts/scuttlebutt" id="more">Read More</Link>
+      </div>
+
+      <div className="post">
         <h1>UDP Implementation Using Raw Sockets in Golang</h1>
         <h6>October 9, 2021</h6>
         <p>
