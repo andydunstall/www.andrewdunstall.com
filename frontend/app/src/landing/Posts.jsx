@@ -10,6 +10,28 @@ function Posts() {
   return (
     <div className="posts">
       <div className="post">
+        <h1>Tracing Redis Pub/Sub</h1>
+        <h6>July 2022</h6>
+
+        <p>
+          This post looks at how Redis pub/sub works under the hood by tracing
+          {' '}
+          <code>PUBLISH</code>
+          ,
+          {' '}
+          <code>SUBSCRIBE</code>
+          {' '}
+          and
+          {' '}
+          <code>UNSUBSCRIBE</code>
+          {' '}
+          calls on the redis server.
+        </p>
+
+        <a href="https://github.com/andydunstall/posts/blob/main/tracing-redis-pub-sub.md" id="more">Read More</a>
+      </div>
+
+      <div className="post">
         <h1>Scuttlebutt</h1>
         <h6>Febuary 2022</h6>
 
