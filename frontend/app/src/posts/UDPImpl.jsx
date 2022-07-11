@@ -125,7 +125,7 @@ func (c *UDPConn) header(payloadLen uint16) []byte {
       <p>
         A very simple implementation in Golang is given in
         {' '}
-        <a href="https://gist.github.com/dunstall/d9ae1b9bdb5eacc33a617e0d645f6edb" target="_blank" rel="noopener noreferrer">udpsock.go</a>
+        <a href="https://gist.github.com/andydunstall/d9ae1b9bdb5eacc33a617e0d645f6edb" target="_blank" rel="noopener noreferrer">udpsock.go</a>
         .
       </p>
       <p>

@@ -132,7 +132,7 @@ def update(self, board, player):
       <p>
         The code for this implementation can be found on
         {' '}
-        <a href="https://github.com/dunstall/td-gammon" target="_blank" rel="noopener noreferrer">GitHub</a>
+        <a href="https://github.com/andydunstall/td-gammon" target="_blank" rel="noopener noreferrer">GitHub</a>
         .
       </p>
 
