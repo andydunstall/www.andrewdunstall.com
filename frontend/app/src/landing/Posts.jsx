@@ -11,28 +11,32 @@ function Posts() {
     <div className="posts">
       <div className="post">
         <h1>Scuttlebutt</h1>
-        <h6>Febuary 14, 2022</h6>
+        <h6>Febuary 2022</h6>
+
         <p>
           This is a high level overview of the Scuttlebutt gossip protocol as described in
           {' '}
           <a href="https://www.cs.cornell.edu/home/rvr/papers/flowgossip.pdf">van Renesse et al</a>
-          .
         </p>
-        <Link to="/posts/scuttlebutt" id="more">Read More</Link>
+
+        <p>
+          Scuttlebutt is an anti-entropy protocol, which gossip information around until its made obsolete by newer information.
+        </p>
+        <a href="https://github.com/andydunstall/posts/blob/main/scuttlebutt.md" id="more">Read More</a>
       </div>
 
       <div className="post">
         <h1>UDP Implementation Using Raw Sockets in Golang</h1>
-        <h6>October 9, 2021</h6>
+        <h6>October 2021</h6>
         <p>
           This article implements a write-only UDP ‘socket’ in Golang using raw sockets, which provide the application direct access to the IP layer. Note the kernel does not forward received UDP datagrams to raw sockets so to receive UDP in the application would require accessing the link layer directly.
         </p>
-        <Link to="/posts/udp-implementation-using-raw-sockets-in-golang" id="more">Read More</Link>
+        <a href="https://github.com/andydunstall/posts/blob/main/udp-implementation-using-raw-sockets-in-golang.md" id="more">Read More</a>
       </div>
 
       <div className="post">
         <h1>Implementing TD-Gammon with Keras</h1>
-        <h6>January 24, 2021</h6>
+        <h6>January 2021</h6>
         <p>
           TD-Gammon is an artificial neural network, trained with TD(λ), that
           learns to play Backgammon by self-play.
@@ -41,12 +45,12 @@ function Posts() {
           This post implements TD-Gammon 0.0 in Python using Keras and
           Tensorflow. A full description of the TD-Gammon is given in ...
         </p>
-        <Link to="/posts/implementing-td-gammon-with-keras" id="more">Read More</Link>
+        <a href="https://github.com/andydunstall/posts/blob/main/implementing-td-gammon-with-keras.md" id="more">Read More</a>
       </div>
 
       <div className="post">
         <h1>GraphQL API in Golang with AWS Lambda</h1>
-        <h6>October 23, 2020</h6>
+        <h6>October 2020</h6>
         <p>
           This article describes building a new Golang back-end API to fetch articies using GraphQL.
         </p>
@@ -58,7 +62,7 @@ function Posts() {
 
       <div className="post">
         <h1>Continuous Deployment Pipeline for AWS Lambda — Commit Stage</h1>
-        <h6>October 11, 2020</h6>
+        <h6>October 2020</h6>
         <p>
           Continuous deployment is a software development practice where the release process is automated from end to end. This includes building, testing and deploying the software in a number of stages.
 
