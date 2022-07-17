@@ -60,6 +60,19 @@ function Posts() {
       </div>
 
       <div className="post">
+        <a href="https://ably.com/blog/redis-keys-do-not-expire-atomically">
+          <h1>Redis scripts do not expire keys atomically</h1>
+        </a>
+        <h6>March 2022</h6>
+
+        <p>
+          This was a post published at Ably about one of the first bugs I worked on there (I wrote a rough first draft describing the issue, then the content team at Ably wrote the final published article, which was of course much easier to read).
+        </p>
+
+        <a href="https://ably.com/blog/redis-keys-do-not-expire-atomically" id="more">Read More</a>
+      </div>
+
+      <div className="post">
         <a href="https://github.com/andydunstall/posts/blob/main/scuttlebutt.md">
           <h1>Scuttlebutt</h1>
         </a>
