@@ -10,7 +10,9 @@ function Posts() {
   return (
     <div className="posts">
       <div className="post">
-        <h1>Tracing NGINX: Requesting A Static File</h1>
+        <a href="https://github.com/andydunstall/posts/blob/main/tracing-nginx-requesting-a-static-file.md">
+          <h1>Tracing NGINX: Requesting A Static File</h1>
+        </a>
         <h6>July 2022</h6>
 
         <p>
@@ -21,7 +23,9 @@ function Posts() {
       </div>
 
       <div className="post">
-        <h1>libuv: Under the hood</h1>
+        <a href="https://github.com/andydunstall/posts/blob/main/libuv-under-the-hood.md">
+          <h1>libuv: Under the hood</h1>
+        </a>
         <h6>July 2022</h6>
 
         <p>
@@ -32,7 +36,9 @@ function Posts() {
       </div>
 
       <div className="post">
-        <h1>Tracing Redis Pub/Sub</h1>
+        <a href="https://github.com/andydunstall/posts/blob/main/tracing-redis-pub-sub.md">
+          <h1>Tracing Redis Pub/Sub</h1>
+        </a>
         <h6>July 2022</h6>
 
         <p>
@@ -54,7 +60,9 @@ function Posts() {
       </div>
 
       <div className="post">
-        <h1>Scuttlebutt</h1>
+        <a href="https://github.com/andydunstall/posts/blob/main/scuttlebutt.md">
+          <h1>Scuttlebutt</h1>
+        </a>
         <h6>Febuary 2022</h6>
 
         <p>
@@ -70,7 +78,9 @@ function Posts() {
       </div>
 
       <div className="post">
-        <h1>UDP Implementation Using Raw Sockets in Golang</h1>
+        <a href="https://github.com/andydunstall/posts/blob/main/udp-implementation-using-raw-sockets-in-golang.md">
+          <h1>UDP Implementation Using Raw Sockets in Golang</h1>
+        </a>
         <h6>October 2021</h6>
         <p>
           This article implements a write-only UDP ‘socket’ in Golang using raw sockets, which provide the application direct access to the IP layer. Note the kernel does not forward received UDP datagrams to raw sockets so to receive UDP in the application would require accessing the link layer directly.
@@ -79,7 +89,9 @@ function Posts() {
       </div>
 
       <div className="post">
-        <h1>Implementing TD-Gammon with Keras</h1>
+        <a href="https://github.com/andydunstall/posts/blob/main/implementing-td-gammon-with-keras.md">
+          <h1>Implementing TD-Gammon with Keras</h1>
+        </a>
         <h6>January 2021</h6>
         <p>
           TD-Gammon is an artificial neural network, trained with TD(λ), that
@@ -93,7 +105,9 @@ function Posts() {
       </div>
 
       <div className="post">
-        <h1>GraphQL API in Golang with AWS Lambda</h1>
+        <Link to="posts/graphql-api-in-golang-with-aws-lambda">
+          <h1>GraphQL API in Golang with AWS Lambda</h1>
+        </Link>
         <h6>October 2020</h6>
         <p>
           This article describes building a new Golang back-end API to fetch articies using GraphQL.
@@ -105,7 +119,9 @@ function Posts() {
       </div>
 
       <div className="post">
-        <h1>Continuous Deployment Pipeline for AWS Lambda — Commit Stage</h1>
+        <Link to="posts/continuous-deployment-pipeline-for-aws-lambda-commit-stage">
+          <h1>Continuous Deployment Pipeline for AWS Lambda — Commit Stage</h1>
+        </Link>
         <h6>October 2020</h6>
         <p>
           Continuous deployment is a software development practice where the release process is automated from end to end. This includes building, testing and deploying the software in a number of stages.
