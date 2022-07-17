@@ -10,6 +10,17 @@ function Posts() {
   return (
     <div className="posts">
       <div className="post">
+        <h1>Tracing NGINX: Requesting A Static File</h1>
+        <h6>July 2022</h6>
+
+        <p>
+          This post looks at tracing the simplest NGINX operation, using NGINX as a web server to serve a static HTML file. I won&apos;t look at each function in depth but will try to give an overview.
+        </p>
+
+        <a href="https://github.com/andydunstall/posts/blob/main/tracing-nginx-requesting-a-static-file.md" id="more">Read More</a>
+      </div>
+
+      <div className="post">
         <h1>libuv: Under the hood</h1>
         <h6>July 2022</h6>
 
